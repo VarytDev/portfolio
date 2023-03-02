@@ -5,7 +5,49 @@
 */
 //
 // Scripts
-// 
+//
+
+//$("#com_portfolioModal1").on('hidden.bs.modal', function (e) {
+//    //$("#fer_vid").attr("src", $("#fer_vid").attr("src"));
+//    console.log($(this).html());
+//});
+
+//$("#portfolioModal3").on('hidden.bs.modal', function (e) {
+//    $("#col_vid").attr("src", $("#col_vid").attr("src"));
+//});
+
+//$(document).ready(function () {
+//    var $videoSrc;
+//    $('.video-btn').click(function () {
+//        $videoSrc = $(this).data("src");
+//    });
+//    $('#com_portfolioModal1').on('hide.bs.modal', function (e) {
+//        $("#fer_vid").attr('src', $videoSrc);
+//    })
+//});
+
+//$(document).ready(function () {
+//    var $videoSrc;
+//    $(".video-btn").click(function () {
+//        $videoSrc = $(this).data("src");
+//    });
+//    $("#myModal").on("shown.bs.modal", function (e) {
+//        $("#video").attr(
+//            "src",
+//            $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0"
+//        );
+//    });
+//    $("#myModal").on("hide.bs.modal", function (e) {
+//        $("#video").attr("src", ""); // Remove the video source.
+//    });
+//});
+
+//$('#projects').on('hidden.bs.modal', function (e) {
+//    var $iframes = $(e.target).find('iframe');
+//    $iframes.each(function (index, iframe) {
+//        $(iframe).attr('src', $(iframe).attr('src'));
+//    });
+//})
 
 window.addEventListener('DOMContentLoaded', event => {
 
